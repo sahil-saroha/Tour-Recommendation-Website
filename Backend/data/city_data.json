@@ -1,0 +1,852 @@
+[
+  {
+    "city": "Taj Mahal",
+    "state": "Uttar Pradesh",
+    "bestTimeToVisit": "June to September",
+    "popularPlaces": [
+      "Taj Mahal Fort",
+      "Taj Mahal Lake",
+      "Taj Mahal Museum"
+    ],
+    "description": "Taj Mahal is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹10018 - ₹34105"
+  },
+  {
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Manali Fort",
+      "Manali Lake",
+      "Manali Museum"
+    ],
+    "description": "Manali is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹12946 - ₹37159"
+  },
+  {
+    "city": "Goa Beach",
+    "state": "Goa",
+    "bestTimeToVisit": "March to May",
+    "popularPlaces": [
+      "Goa Beach Fort",
+      "Goa Beach Lake",
+      "Goa Beach Museum"
+    ],
+    "description": "Goa Beach is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹7487 - ₹43326"
+  },
+  {
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "bestTimeToVisit": "March to May",
+    "popularPlaces": [
+      "Shimla Fort",
+      "Shimla Lake",
+      "Shimla Museum"
+    ],
+    "description": "Shimla is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹14978 - ₹34281"
+  },
+  {
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "bestTimeToVisit": "November to February",
+    "popularPlaces": [
+      "Nainital Fort",
+      "Nainital Lake",
+      "Nainital Museum"
+    ],
+    "description": "Nainital is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹9941 - ₹32185"
+  },
+  {
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Mussoorie Fort",
+      "Mussoorie Lake",
+      "Mussoorie Museum"
+    ],
+    "description": "Mussoorie is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹20698 - ₹49377"
+  },
+  {
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Darjeeling Fort",
+      "Darjeeling Lake",
+      "Darjeeling Museum"
+    ],
+    "description": "Darjeeling is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹7669 - ₹42135"
+  },
+  {
+    "city": "Munnar",
+    "state": "Kerala",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Munnar Fort",
+      "Munnar Lake",
+      "Munnar Museum"
+    ],
+    "description": "Munnar is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹17932 - ₹43390"
+  },
+  {
+    "city": "Ooty",
+    "state": "Tamil Nadu",
+    "bestTimeToVisit": "June to September",
+    "popularPlaces": [
+      "Ooty Fort",
+      "Ooty Lake",
+      "Ooty Museum"
+    ],
+    "description": "Ooty is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹21182 - ₹32481"
+  },
+  {
+    "city": "Gangtok",
+    "state": "Sikkim",
+    "bestTimeToVisit": "March to May",
+    "popularPlaces": [
+      "Gangtok Fort",
+      "Gangtok Lake",
+      "Gangtok Museum"
+    ],
+    "description": "Gangtok is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹5724 - ₹39401"
+  },
+  {
+    "city": "Auli",
+    "state": "Uttarakhand",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Auli Fort",
+      "Auli Lake",
+      "Auli Museum"
+    ],
+    "description": "Auli is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹9746 - ₹31541"
+  },
+  {
+    "city": "Mount Abu",
+    "state": "Rajasthan",
+    "bestTimeToVisit": "November to February",
+    "popularPlaces": [
+      "Mount Abu Fort",
+      "Mount Abu Lake",
+      "Mount Abu Museum"
+    ],
+    "description": "Mount Abu is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹5038 - ₹33405"
+  },
+  {
+    "city": "Goa",
+    "state": "Goa",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Goa Fort",
+      "Goa Lake",
+      "Goa Museum"
+    ],
+    "description": "Goa is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹9941 - ₹28117"
+  },
+  {
+    "city": "Pondicherry",
+    "state": "Puducherry",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Pondicherry Fort",
+      "Pondicherry Lake",
+      "Pondicherry Museum"
+    ],
+    "description": "Pondicherry is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹5397 - ₹32355"
+  },
+  {
+    "city": "Varkala",
+    "state": "Kerala",
+    "bestTimeToVisit": "March to May",
+    "popularPlaces": [
+      "Varkala Fort",
+      "Varkala Lake",
+      "Varkala Museum"
+    ],
+    "description": "Varkala is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹24968 - ₹45137"
+  },
+  {
+    "city": "Kovalam",
+    "state": "Kerala",
+    "bestTimeToVisit": "November to February",
+    "popularPlaces": [
+      "Kovalam Fort",
+      "Kovalam Lake",
+      "Kovalam Museum"
+    ],
+    "description": "Kovalam is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹17703 - ₹38285"
+  },
+  {
+    "city": "Andaman & Nicobar Islands",
+    "state": "Andaman & Nicobar",
+    "bestTimeToVisit": "June to September",
+    "popularPlaces": [
+      "Andaman & Nicobar Islands Fort",
+      "Andaman & Nicobar Islands Lake",
+      "Andaman & Nicobar Islands Museum"
+    ],
+    "description": "Andaman & Nicobar Islands is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹19971 - ₹39441"
+  },
+  {
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Gokarna Fort",
+      "Gokarna Lake",
+      "Gokarna Museum"
+    ],
+    "description": "Gokarna is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹11849 - ₹38764"
+  },
+  {
+    "city": "Diu",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "bestTimeToVisit": "March to May",
+    "popularPlaces": [
+      "Diu Fort",
+      "Diu Lake",
+      "Diu Museum"
+    ],
+    "description": "Diu is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹24697 - ₹35911"
+  },
+  {
+    "city": "Alibaug",
+    "state": "Maharashtra",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Alibaug Fort",
+      "Alibaug Lake",
+      "Alibaug Museum"
+    ],
+    "description": "Alibaug is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹12412 - ₹38901"
+  },
+  {
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "bestTimeToVisit": "November to February",
+    "popularPlaces": [
+      "Jaipur Fort",
+      "Jaipur Lake",
+      "Jaipur Museum"
+    ],
+    "description": "Jaipur is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹14031 - ₹38630"
+  },
+  {
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "bestTimeToVisit": "June to September",
+    "popularPlaces": [
+      "Udaipur Fort",
+      "Udaipur Lake",
+      "Udaipur Museum"
+    ],
+    "description": "Udaipur is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹21822 - ₹41616"
+  },
+  {
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "bestTimeToVisit": "November to February",
+    "popularPlaces": [
+      "Jaisalmer Fort",
+      "Jaisalmer Lake",
+      "Jaisalmer Museum"
+    ],
+    "description": "Jaisalmer is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹23381 - ₹28021"
+  },
+  {
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Agra Fort",
+      "Agra Lake",
+      "Agra Museum"
+    ],
+    "description": "Agra is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹10193 - ₹42531"
+  },
+  {
+    "city": "Delhi",
+    "state": "Delhi",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Delhi Fort",
+      "Delhi Lake",
+      "Delhi Museum"
+    ],
+    "description": "Delhi is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹13939 - ₹41026"
+  },
+  {
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "bestTimeToVisit": "March to May",
+    "popularPlaces": [
+      "Varanasi Fort",
+      "Varanasi Lake",
+      "Varanasi Museum"
+    ],
+    "description": "Varanasi is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹9914 - ₹40795"
+  },
+  {
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "bestTimeToVisit": "November to February",
+    "popularPlaces": [
+      "Khajuraho Fort",
+      "Khajuraho Lake",
+      "Khajuraho Museum"
+    ],
+    "description": "Khajuraho is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹7927 - ₹41158"
+  },
+  {
+    "city": "Hampi",
+    "state": "Karnataka",
+    "bestTimeToVisit": "March to May",
+    "popularPlaces": [
+      "Hampi Fort",
+      "Hampi Lake",
+      "Hampi Museum"
+    ],
+    "description": "Hampi is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹19941 - ₹39813"
+  },
+  {
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "bestTimeToVisit": "June to September",
+    "popularPlaces": [
+      "Mysuru Fort",
+      "Mysuru Lake",
+      "Mysuru Museum"
+    ],
+    "description": "Mysuru is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹15948 - ₹34653"
+  },
+  {
+    "city": "Orchha",
+    "state": "Madhya Pradesh",
+    "bestTimeToVisit": "June to September",
+    "popularPlaces": [
+      "Orchha Fort",
+      "Orchha Lake",
+      "Orchha Museum"
+    ],
+    "description": "Orchha is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹10308 - ₹45790"
+  },
+  {
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Rishikesh Fort",
+      "Rishikesh Lake",
+      "Rishikesh Museum"
+    ],
+    "description": "Rishikesh is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹6141 - ₹49836"
+  },
+  {
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "bestTimeToVisit": "June to September",
+    "popularPlaces": [
+      "Haridwar Fort",
+      "Haridwar Lake",
+      "Haridwar Museum"
+    ],
+    "description": "Haridwar is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹18085 - ₹45815"
+  },
+  {
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Tirupati Fort",
+      "Tirupati Lake",
+      "Tirupati Museum"
+    ],
+    "description": "Tirupati is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹18623 - ₹44309"
+  },
+  {
+    "city": "Amritsar",
+    "state": "Punjab",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Amritsar Fort",
+      "Amritsar Lake",
+      "Amritsar Museum"
+    ],
+    "description": "Amritsar is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹14858 - ₹45654"
+  },
+  {
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Bodh Gaya Fort",
+      "Bodh Gaya Lake",
+      "Bodh Gaya Museum"
+    ],
+    "description": "Bodh Gaya is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹8692 - ₹39439"
+  },
+  {
+    "city": "Kedarnath",
+    "state": "Uttarakhand",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Kedarnath Fort",
+      "Kedarnath Lake",
+      "Kedarnath Museum"
+    ],
+    "description": "Kedarnath is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹13182 - ₹41223"
+  },
+  {
+    "city": "Badrinath",
+    "state": "Uttarakhand",
+    "bestTimeToVisit": "March to May",
+    "popularPlaces": [
+      "Badrinath Fort",
+      "Badrinath Lake",
+      "Badrinath Museum"
+    ],
+    "description": "Badrinath is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹5182 - ₹38950"
+  },
+  {
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Madurai Fort",
+      "Madurai Lake",
+      "Madurai Museum"
+    ],
+    "description": "Madurai is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹9790 - ₹48015"
+  },
+  {
+    "city": "Jim Corbett",
+    "state": "Uttarakhand",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Jim Corbett Fort",
+      "Jim Corbett Lake",
+      "Jim Corbett Museum"
+    ],
+    "description": "Jim Corbett is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹11386 - ₹31509"
+  },
+  {
+    "city": "Ranthambore",
+    "state": "Rajasthan",
+    "bestTimeToVisit": "November to February",
+    "popularPlaces": [
+      "Ranthambore Fort",
+      "Ranthambore Lake",
+      "Ranthambore Museum"
+    ],
+    "description": "Ranthambore is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹14764 - ₹43023"
+  },
+  {
+    "city": "Kaziranga",
+    "state": "Assam",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Kaziranga Fort",
+      "Kaziranga Lake",
+      "Kaziranga Museum"
+    ],
+    "description": "Kaziranga is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹22336 - ₹28681"
+  },
+  {
+    "city": "Gir National Park",
+    "state": "Gujarat",
+    "bestTimeToVisit": "November to February",
+    "popularPlaces": [
+      "Gir National Park Fort",
+      "Gir National Park Lake",
+      "Gir National Park Museum"
+    ],
+    "description": "Gir National Park is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹24639 - ₹26890"
+  },
+  {
+    "city": "Sundarbans",
+    "state": "West Bengal",
+    "bestTimeToVisit": "March to May",
+    "popularPlaces": [
+      "Sundarbans Fort",
+      "Sundarbans Lake",
+      "Sundarbans Museum"
+    ],
+    "description": "Sundarbans is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹21655 - ₹39412"
+  },
+  {
+    "city": "Periyar Wildlife Sanctuary",
+    "state": "Kerala",
+    "bestTimeToVisit": "November to February",
+    "popularPlaces": [
+      "Periyar Wildlife Sanctuary Fort",
+      "Periyar Wildlife Sanctuary Lake",
+      "Periyar Wildlife Sanctuary Museum"
+    ],
+    "description": "Periyar Wildlife Sanctuary is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹21572 - ₹26119"
+  },
+  {
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Mumbai Fort",
+      "Mumbai Lake",
+      "Mumbai Museum"
+    ],
+    "description": "Mumbai is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹16667 - ₹49853"
+  },
+  {
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "bestTimeToVisit": "October to December",
+    "popularPlaces": [
+      "Bangalore Fort",
+      "Bangalore Lake",
+      "Bangalore Museum"
+    ],
+    "description": "Bangalore is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹5049 - ₹45194"
+  },
+  {
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "bestTimeToVisit": "November to February",
+    "popularPlaces": [
+      "Hyderabad Fort",
+      "Hyderabad Lake",
+      "Hyderabad Museum"
+    ],
+    "description": "Hyderabad is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹13448 - ₹29581"
+  },
+  {
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "bestTimeToVisit": "June to September",
+    "popularPlaces": [
+      "Chennai Fort",
+      "Chennai Lake",
+      "Chennai Museum"
+    ],
+    "description": "Chennai is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹19195 - ₹47903"
+  },
+  {
+    "city": "Pune",
+    "state": "Maharashtra",
+    "bestTimeToVisit": "March to May",
+    "popularPlaces": [
+      "Pune Fort",
+      "Pune Lake",
+      "Pune Museum"
+    ],
+    "description": "Pune is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹17265 - ₹46189"
+  },
+  {
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "bestTimeToVisit": "June to September",
+    "popularPlaces": [
+      "Ahmedabad Fort",
+      "Ahmedabad Lake",
+      "Ahmedabad Museum"
+    ],
+    "description": "Ahmedabad is a beautiful tourist destination known for its rich culture and scenic views.",
+    "activities": [
+      "Sightseeing",
+      "Photography",
+      "Local Cuisine"
+    ],
+    "averageBudget": "₹17437 - ₹41535"
+  }
+]

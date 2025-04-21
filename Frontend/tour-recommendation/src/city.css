@@ -1,0 +1,100 @@
+.city-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  /* City info (top section) */
+  .city-info {
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    background-color: #1d1d1d;
+    border: 2px solid #d1d5db;
+    border-radius: 12px;
+  }
+  
+  .city-image img {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+  }
+  
+  .city-details {
+    flex: 1;
+  }
+  
+  .city-details h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .city-details p {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    line-height: 1.6;
+  }
+  
+  /* Recommended places (bottom slider) */
+  .recommended-section {
+    background-color: #1d1d1d;
+    padding: 30px 20px;
+    border: 2px solid #d1d5db;
+    border-radius: 12px;
+  }
+  
+  .recommended-heading {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    
+  }
+  
+  .recommended-marquee {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .recommended-track {
+    display: flex;
+    width: max-content;
+    animation: slide 25s linear infinite;
+    gap: 30px;
+  }
+  
+  .recommended-card {
+    width: 220px;
+    position: relative;
+    flex-shrink: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    color: black;
+  }
+  
+  .recommended-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .recommended-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .recommended-name {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 1.1rem;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  

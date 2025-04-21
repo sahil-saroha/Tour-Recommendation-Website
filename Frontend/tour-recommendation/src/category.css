@@ -1,0 +1,74 @@
+/* category.css */
+
+.sectionC {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.category-headingC {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.cards-wrapperC {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* default: 3 in a row */
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* 🔁 Responsive Grid */
+@media (max-width: 900px) {
+  .cards-wrapperC {
+    grid-template-columns: repeat(2, 1fr); /* tablet and down: 2 in a row */
+  }
+}
+
+@media (max-width: 600px) {
+  .cards-wrapperC {
+    grid-template-columns: repeat(2, 1fr); /* phone: 2 in a row */
+  }
+
+  .destination-cardC {
+    padding: 1rem;
+  }
+
+  .card-titleC {
+    font-size: 1rem;
+  }
+}
+
+.destination-cardC {
+  background-color: #ffffffdd;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.destination-cardC:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-imageC {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-titleC {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  color: #333;
+}

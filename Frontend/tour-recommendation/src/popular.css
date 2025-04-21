@@ -1,0 +1,113 @@
+.popu-container {
+    max-width: 1530px;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    background-color: #1d1d1d;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .destinations-heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .cards-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    transition: transform 0.3s ease;
+  }
+  
+  .destination-card {
+    background-color: #2c2c2c;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 320px;
+    height: 420px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1);
+    position: relative;
+  }
+  
+  .destination-card:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  }
+  
+  .cards-wrapper:hover .destination-card {
+    transform: scale(0.95);
+  }
+  
+  .cards-wrapper:hover .destination-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #2c2c2c;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* === Responsive Styles === */
+  @media (max-width: 420px) {
+    .destinations-heading {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .cards-wrapper {
+      gap: 1rem;
+      justify-content: center;
+    }
+  
+    .destination-card {
+      width: 45%; /* Two in a row */
+      height: 360px;
+    }
+  
+    .card-title {
+      font-size: 1.2rem;
+      padding: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .destinations-heading {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .cards-wrapper {
+      gap: 1rem;
+      justify-content: center;
+    }
+  
+    .destination-card {
+      width: calc(50% - 0.5rem); /* Makes room for the gap */
+      height: 290px;
+    }
+  
+    .card-title {
+      font-size: 1.2rem;
+      padding: 0.8rem;
+    }
+  }
+  
+  

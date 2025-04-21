@@ -1,0 +1,619 @@
+/* === Dark Theme Base === */
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0f0f0;
+  background-color: #1e1e1e;
+  line-height: 1.6;
+}
+
+/* === Reset & Base Styles === */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+/* === Navbar Styles === */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #2c2c2c;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  padding: 0.5rem 1rem;
+  background-color: #3a3a3a;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #575757;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+/* === HERO SECTION STYLES === */
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 80px);
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: 0;
+}
+
+.bg-video.fade-in {
+  opacity: 1;
+  z-index: 1;
+}
+
+.hero-overlay {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-search {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  width: 80%;
+  max-width: 500px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+}
+
+/* === Popular Destinations === */
+.destinations-container {
+  padding: 3rem 2rem;
+  background-color: #1e1e1e;
+  color: #fff;
+  text-align: center;
+}
+
+.destinations-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  transition: transform 0.3s ease;
+}
+
+.destination-card {
+  background-color: #2c2c2c;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 320px;
+  height: 420px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform: scale(1);
+  position: relative;
+}
+
+.destination-card:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.cards-wrapper:hover .destination-card {
+  transform: scale(0.95);
+}
+
+.cards-wrapper:hover .destination-card:hover {
+  transform: scale(1.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: #2c2c2c;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* === TopDestination Styles === */
+
+.top-destination-container {
+  padding: 3rem 2rem;
+  background-color: #1e1e1e;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+.swiper-container {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.swiper-slide {
+  background-color: #2c2c2c;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transform: scale(0.85);
+  opacity: 0.6;
+  transition: all 0.4s ease;
+}
+
+.swiper-slide-active {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.slide-card-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.slide-card-content {
+  padding: 1rem;
+}
+
+.slide-card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.slide-card-button {
+  padding: 0.6rem 1.2rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.slide-card-button:hover {
+  background-color: #1d7cc4;
+}
+
+/* === TopDestination Styles === */
+.top-destination-container {
+  padding: 3rem 2rem;
+  background-color: #1e1e1e;
+  color: #fff;
+  text-align: center;
+}
+
+.top-destination-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.swiper-container {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.swiper-slide {
+  background-color: #2c2c2c;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transform: scale(0.75); /* smaller side cards */
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  margin: 0 10px; /* space between slides */
+}
+
+.swiper-slide-active {
+  transform: scale(1.15); /* pop-out center card */
+  opacity: 1;
+  z-index: 10;
+}
+
+
+.slide-card-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.slide-card-content {
+  padding: 1rem;
+}
+
+.slide-card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.slide-card-button {
+  padding: 0.6rem 1.2rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.slide-card-button:hover {
+  background-color: #1d7cc4;
+}
+
+/* === Instagram Feed === */
+.insta-section {
+  padding: 3rem 2rem;
+  background-color: #121212;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.insta-heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.insta-marquee {
+  overflow: hidden;
+  width: 100%;
+}
+
+.insta-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.insta-card {
+  flex: 0 0 auto;
+  width: 250px;
+  margin: 0 10px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #222;
+}
+
+.insta-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.insta-overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  gap: 10px;
+  opacity: 0.85;
+}
+
+.insta-icon {
+  color: white;
+  cursor: pointer;
+}
+
+.footer-container {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  height: auto;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00bcd4;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  color: #00bcd4;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-socials a {
+  color: #ddd;
+  transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+  color: #00bcd4;
+}
+
+.footer-bottom {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.section-container {
+  max-width: 1530px;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  background-color: #1d1d1d;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Section container styling */
+.about-container {
+  width: 1500px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #111827;;
+}
+
+.about-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.team-member {
+  flex: 1 1 300px;
+  max-width: 450px;
+  background-color: #ffffffdd;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: scale(1.03);
+}
+
+.team-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #888;
+}
+
+.team-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.team-desc {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.about-subcontainer {
+  max-width: 85%;
+  margin: 40px auto;
+  padding: 40px 30px;
+  background-color: #1f1f1f;
+  border: 2px solid #444;
+  border-radius: 12px;
+  height: 500px;
+  
+}
+
+.about-subcontainer h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: white; /* Slightly darker heading */
+  text-align: center;
+}
+
+.about-subcontainer p {
+  margin-top: 50px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+
+
+
+html {
+  overflow-y: scroll;
+}
+
+
+
+/* === Responsive Navbar === */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #2c2c2c;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    padding: 1rem 2rem;
+    z-index: 999;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+
+/* ---------------- Hero Component Responsive ---------------- */
+
+@media (max-width: 768px) {
+  .hero-container {
+    height: 40vh;
+    position: relative;
+  }
+
+  .bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-overlay h1 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    
+  }
+
+  .hero-search {
+    width: 70%;
+    max-width: 350px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+  }
+}
+
