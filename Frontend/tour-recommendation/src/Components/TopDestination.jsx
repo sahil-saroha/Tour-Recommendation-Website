@@ -1,7 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import '../topdestination.css'; 
+import '../topdestination.css';
+import { useNavigate } from 'react-router-dom';
+
 const destinations = [
   { name: 'Goa', image: '/images/goa.jpg' },
   { name: 'Udaipur', image: '/images/jaipur.jpg' },
@@ -10,6 +12,12 @@ const destinations = [
 ];
 
 const TopDestination = () => {
+  const navigate = useNavigate();
+
+  const handleExplore = (cityName) => {
+    navigate(`/${cityName.toLowerCase()}`);
+  };
+
   return (
     <div className="top-destination-container">
       <h2 className="top-destination-heading">Top Destinations</h2>
@@ -23,7 +31,7 @@ const TopDestination = () => {
         }}
         breakpoints={{
           0: {
-            slidesPerView: 1.1, 
+            slidesPerView: 1.1,
             spaceBetween: 10,
           },
           600: {
@@ -43,7 +51,12 @@ const TopDestination = () => {
               <img src={dest.image} alt={dest.name} className="slide-card-image" />
               <div className="slide-card-content">
                 <h3 className="slide-card-title">{dest.name}</h3>
-                <button className="slide-card-button">Explore</button>
+                <button
+                  className="slide-card-button"
+                  onClick={() => handleExplore(dest.name)}
+                >
+                  Explore
+                </button>
               </div>
             </div>
           </SwiperSlide>
