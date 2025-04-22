@@ -13,5 +13,8 @@ Project includes a user-friendly frontend built with React and a backend using P
 
 ![image](https://github.com/user-attachments/assets/8ff74396-c1dc-4078-b23a-c3255f9f7cba)
 
+![image](https://github.com/user-attachments/assets/6c33a00e-9ef9-4dc4-ba1c-94c8ede963c1)
+
+
 
 
