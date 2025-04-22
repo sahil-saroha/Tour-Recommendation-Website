@@ -2,7 +2,8 @@ Tour Recommendation System . Live Link- https://tour-recommendation-by-sahil-sar
 This is a smart and easy-to-use tour recommendation website for exploring tourist destinations across India. It suggests places based on user interests using content-based filtering. Users can view city details, explore top destinations, and browse by categories like beaches, historical places, and hill stations.
 Project includes a user-friendly frontend built with React and a backend using Python (Flask) and Node.js/Express, with custom data for Indian cities.
 
-![image](https://github.com/user-attachments/assets/7b936fbf-dfa1-41b5-b1a0-074aef8a4cdf)
+![image](https://github.com/user-attachments/assets/84a3fb12-215f-42dd-9ecb-c474f59fe501)
+
 
 ![image](https://github.com/user-attachments/assets/a6758588-d2a8-4857-9437-74bff581489f)
 
